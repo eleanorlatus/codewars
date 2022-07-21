@@ -49,3 +49,9 @@ function enough(cap, on, wait) {
     return ((cap-wait-on)*-1)
   }
 }
+
+//Very simple, given an integer or a floating-point number, find its opposite.
+
+function opposite(number) {
+  return number*-1
+}
