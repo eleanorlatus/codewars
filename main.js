@@ -55,3 +55,5 @@ function enough(cap, on, wait) {
 function opposite(number) {
   return number*-1
 }
+
+//i love dogs
