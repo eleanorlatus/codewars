@@ -56,4 +56,8 @@ function opposite(number) {
   return number*-1
 }
 
-//i love dogs more
+//remove the vowels from a string
+
+function disemvowel(str) {
+  return str.replace(/[aeiou]/gi, '');
+}
