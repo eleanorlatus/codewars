@@ -61,3 +61,11 @@ function opposite(number) {
 function disemvowel(str) {
   return str.replace(/[aeiou]/gi, '');
 }
+
+//our goal is to create a function that removes the first and last characters of a string.
+
+function removeChar(str){
+  return str.slice(1, str.length-1)
+ };
+ 
+ 
