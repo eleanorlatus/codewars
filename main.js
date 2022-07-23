@@ -80,3 +80,9 @@ function removeChar(str){
     const arr = numbers.split(" ").sort((a,b) => a-b)
     return arr[arr.length-1] + ' ' + arr[0]
   }
+
+  // Simple, given a string of words, return the length of the shortest word(s).
+
+  function findShort(s){
+    return s.split(" ").sort((a,b)=> a.length-b.length)[0].length
+   }
