@@ -93,3 +93,21 @@ function sumTwoSmallestNumbers(numbers) {
   const arr = numbers.sort((a,b)=>a-b)
   return arr[0] + arr[1]
  }
+
+
+//Given two integers a and b, which can be positive or negative, find the sum of all the integers between and including them and return it.
+
+ function getSum(a,b){
+  let sum = 0
+  if(a<b){
+    for(i=a;i<=b;i++){
+      sum+= i
+    }
+    }
+  else{
+    for(i=b;i<=a;i++){
+      sum+= i
+    }
+  }
+  return sum
+}
