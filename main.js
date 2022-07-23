@@ -86,3 +86,10 @@ function removeChar(str){
   function findShort(s){
     return s.split(" ").sort((a,b)=> a.length-b.length)[0].length
    }
+
+//Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers
+
+function sumTwoSmallestNumbers(numbers) {  
+  const arr = numbers.sort((a,b)=>a-b)
+  return arr[0] + arr[1]
+ }
