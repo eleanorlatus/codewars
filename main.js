@@ -125,3 +125,25 @@ function nbYear(p0, percent, aug, p) {
   }
 return years
   }
+
+//   Make a program that filters a list of strings and returns a list with only your friends name in it.
+
+// If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours!
+
+function friend(friends){
+  let arr = []
+    for(let i=0;i<friends.length;i++){
+  if((friends[i].length)===4){
+        arr.push(friends[i])
+      }
+  }
+  return arr
+  }
+
+  // Take 2 strings s1 and s2 including only letters from a to z. Return a new sorted string, the longest possible, containing distinct letters - each taken only once - coming from s1 or s2.
+
+  function longest(s1, s2) {
+    const newArray = s1.split("").concat(s2.split(""))
+    const remove = [...new Set(newArray)]
+    return remove.sort().join("")
+  }
