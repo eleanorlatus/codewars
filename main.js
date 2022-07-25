@@ -147,3 +147,9 @@ function friend(friends){
     const remove = [...new Set(newArray)]
     return remove.sort().join("")
   }
+
+  //return n cubed
+
+  function rowSumOddNumbers(n) {
+    return n * n *n
+  }
