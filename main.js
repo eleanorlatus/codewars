@@ -159,3 +159,9 @@ function friend(friends){
   function reverseWords(str) {
     return str.split("").reverse().join("").split(" ").reverse().join(" ")  
    }
+
+//Write a function that returns both the minimum and maximum number of the given list/array.
+
+   function minMax(arr){
+    return [Math.min(...arr),Math.max(...arr)]
+  }
