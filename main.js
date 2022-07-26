@@ -1,3 +1,20 @@
+
+
+
+
+
+
+const flip=(d, a)=>{
+  //TODO
+  if(d==='L'){
+    return a.sort((a,b)=>b-a)
+}
+  else{
+    return a.sort((a,b)=>a-b)
+    
+  }
+  }
+
 //Implement a function which multiplies two numbers.
 
 function multiply(n1,n2){
@@ -182,7 +199,7 @@ function friend(friends){
     const solution = nums => nums===null ? [] : nums.sort((a,b)=>a-b)
 
     //Given two numbers and an arithmetic operator (the name of it, as a string), return the result of the two numbers having that operator used on them.
-    
+
     function arithmetic(a, b, operator){
       if(operator==="add"){
         return a+b
