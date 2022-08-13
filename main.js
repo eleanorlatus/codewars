@@ -1,4 +1,10 @@
+//Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contain any char.
 
+function XO(str) {
+  let x = str.match(/x/gi);
+  let o = str.match(/o/gi);
+  return (x && x.length) === (o && o.length);
+}
 //Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. 
 //Essentially, rearrange the digits to create the highest possible number.
 
