@@ -1,3 +1,10 @@
+//Given an array of integers your solution should find the smallest integer.
+
+function findSmallestInt(args) {
+  args.sort((a,b)=>a-b)
+  return args.shift()
+}
+
 //In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
 
 function filter_list(l) {
