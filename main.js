@@ -1,3 +1,21 @@
+//Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+
+function countSheeps(arrayOfSheep) {
+  let sheep = 0
+  for (let i=0;i<arrayOfSheep.length;i++){
+    if(arrayOfSheep[i]===true){
+      sheep+=1
+    }
+  }
+  return sheep
+}
+
+//OR
+
+function countSheeps(arrayOfSheeps) {
+  return arrayOfSheeps.filter(Boolean).length;
+}
+
 //Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
 
 var summation = function (num) {
