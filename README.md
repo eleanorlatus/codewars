@@ -1,3 +1,7 @@
-# codewars
+# Codewars
 
-A place for me to store my codewars solutions
+Solutions to Javascript coding challenges of varying levels to improve problem solving skills and technical knowledge. 
+
+Link to profile: https://www.codewars.com/users/eleanorl96
+
+Currently ranked 6 KYU
