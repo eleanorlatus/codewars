@@ -30,3 +30,15 @@ public class GrassHopper
           return sum / nums.Length;
         }
     }
+
+//OR
+
+using System.Linq;
+
+public class GrassHopper 
+    {
+        public static int FindAverage(int[] nums)
+        {
+            return (int)nums.Average();
+        }
+    }
