@@ -9,3 +9,7 @@ public static class Kata
     return new string(arr);
   }
 }
+
+//OR
+
+// return new string(str.ToArray().Reverse().ToArray());
