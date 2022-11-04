@@ -9,3 +9,7 @@
       return hour + min + sec;
     }
   }
+
+//OR
+
+//return ((h * 60 + m) * 60 + s) * 1000;
