@@ -4,3 +4,17 @@ function createPhoneNumber(n){
   let p3 = [n[6],n[7],n[8],n[9]].join("")
   return `(${p1}) ` + p2 + "-" + p3
 }
+
+
+//OR
+
+function createPhoneNumber(numbers){
+let result = "(xxx) xxx-xxxx";
+  
+  for(var i = 0; i < numbers.length; i++)
+  {
+    result = result.replace('x', numbers[i]);
+  }
+  
+  return result;
+}
