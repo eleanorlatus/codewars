@@ -4,8 +4,8 @@
 
 Solutions to Javascript and C# coding challenges of varying levels to improve problem solving skills and technical knowledge. 
 
-Link to profile: https://www.codewars.com/users/eleanorl96
+You can view my profile <a href="https://www.codewars.com/users/eleanorlatus">here</a>.
 
 Currently ranked 6 KYU, in the top 55% percentile at my level.
 
-Note: C# challenges are saved under my corporate account (EleanorCivica)
+Note: C# challenges are saved under my corporate account (<a href="https://www.codewars.com/users/EleanorCivica">EleanorCivica</a>)
