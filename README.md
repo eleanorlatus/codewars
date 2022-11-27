@@ -1,6 +1,7 @@
 # Codewars
 
-<img width="1024" alt="codewars" src="https://user-images.githubusercontent.com/90465357/198888067-186fbd3c-5f61-4322-8a27-701f8c067ac5.png">
+<img width="909" alt="image" src="https://user-images.githubusercontent.com/90465357/204153779-f6d48f35-dd18-4b6c-bb78-aa6c82141cea.png">
+
 
 Solutions to Javascript and C# coding challenges of varying levels to improve problem solving skills and technical knowledge. 
 
