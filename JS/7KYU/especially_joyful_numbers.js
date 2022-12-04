@@ -20,3 +20,9 @@ function numberJoy(n) {
     return false
   }
 }
+
+function numberJoy(n) {
+    const sum = n.toString().split("").reduce((a,b)=> Number(a)+Number(b),0)
+    const reversed = Number(sum.toString().split("").reverse().join(""))
+    return sum * reversed == n
+}
