@@ -5,3 +5,7 @@ function breakChocolate(n,m) {
     return 0
 }
 }
+
+// OR
+
+const breakChocolate = (n,m) => n*m==0 ? 0 : m*n-1
