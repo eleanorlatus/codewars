@@ -7,6 +7,6 @@ Solutions to Javascript and C# coding challenges of varying levels to improve pr
 
 You can view my profile <a href="https://www.codewars.com/users/eleanorlatus">here</a>.
 
-Currently ranked 6 KYU, in the top 55% percentile at my level.
+Currently ranked 5 KYU, in the top 55% percentile at my level.
 
 Note: C# challenges are saved under my <a href="https://www.codewars.com/users/EleanorCivica">corporate account</a>.
