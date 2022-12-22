@@ -10,3 +10,5 @@ You can view my profile <a href="https://www.codewars.com/users/eleanorlatus">he
 Currently ranked 5 KYU, in the top 22% percentile at my level.
 
 Note: C# challenges are saved under my <a href="https://www.codewars.com/users/EleanorCivica">corporate account</a>.
+
+For C#, I am currently ranked 6 KYU, in the top 88% percentile at my level.
