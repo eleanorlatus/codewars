@@ -10,3 +10,9 @@ arr.forEach((x)=>sum+=x)
 function squareSum(n){
 return n.map((x)=>x*x).reduce((a,b)=> a+b,0)
 }
+
+//OR
+
+function squareSum(n){
+return n.reduce((a,b)=> a + (b*b) ,0)
+}
