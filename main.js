@@ -403,3 +403,5 @@ function friend(friends){
         return a/b
       }
     }
+
+    //test
