@@ -1,0 +1,1 @@
+const reverseLetter = str => str.match(/[a-z]/g).reverse().join('');
