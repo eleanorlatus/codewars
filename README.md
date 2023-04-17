@@ -7,8 +7,8 @@ Solutions to Javascript and C# coding challenges of varying levels to improve pr
 
 You can view my profile <a href="https://www.codewars.com/users/eleanorlatus">here</a>.
 
-For Javascript, I am currently ranked 5 KYU and I am placed within the top 15% percentile at my level.
+For Javascript, I am currently ranked 5 KYU and I am placed within the top 13% percentile at my level.
 
 Note: C# challenges are saved under my <a href="https://www.codewars.com/users/EleanorCivica">corporate account</a>.
 
-For C#, I am currently ranked 6 KYU and placed within the top 63% percentile at my level.
+For C#, I am currently ranked 6 KYU and placed within the top 52% percentile at my level.
