@@ -6,3 +6,11 @@ function findDeletedNumber(arr, mixArr) {
   }
   return 0;
 }
+
+// OR
+
+function findDeletedNumber(arr, mixArr) {
+  const arrSum = arr.reduce((a, b) => a + b, 0);
+  const mixArrSum = mixArr.reduce((a, b) => a + b, 0);
+  return arrSum - mixArrSum;
+}
