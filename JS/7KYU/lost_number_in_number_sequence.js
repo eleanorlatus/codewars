@@ -14,3 +14,9 @@ function findDeletedNumber(arr, mixArr) {
   const mixArrSum = mixArr.reduce((a, b) => a + b, 0);
   return arrSum - mixArrSum;
 }
+
+// OR
+
+function findDeletedNumber(arr, mixArr) {
+  return arr.find((x) => mixArr.indexOf(x) == -1) || 0;
+}
